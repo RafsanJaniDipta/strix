@@ -98,3 +98,11 @@ schema.graphql
 /.benchmarks/
 /references/
 /strix_runs_main/
+
+# Environment variables & secrets (added by GitHub Guardian)
+.env.*
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
